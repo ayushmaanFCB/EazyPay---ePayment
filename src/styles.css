@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./bootstrap.css";
+
+.col-md-2{
+    /*border-style: solid;*/
+    text-align: center;
+    background-color:rgb(47, 47, 177);
+    height: 200px;
+    padding: 20px;
+}
+
+
+
+.features{
+    color: white;
+    font-size: 20px;
+    font-family: arial rounded mt;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+.navlabel{
+    font-family: arial rounded mt;
+    color: lavender;
+    font-size: 24px;
+}
+
+#contact{
+    font-family: arial rounded mt;
+    background-color: rgb(166, 166, 245);
+   
+}
+
+.app-download-overview .app-download-overview__content .app-download-overview__content__download-btns {
+    display: flex;
+    flex-direction: column;
+}
